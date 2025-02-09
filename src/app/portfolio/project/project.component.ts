@@ -34,9 +34,9 @@ export class ProjectComponent {
     {
         id: 3,
         title: 'Casier D2C',
-        description: 'Une application innovante de gestion de tâches qui permet aux utilisateurs de planifier, suivre et prioriser leurs activités quotidiennes. Elle inclut des fonctionnalités avancées telles que la gestion des échéances, les notifications, et la création de rapports d’efficacité.',
+        description: "Le projet des casiers D2C a été conçu pour E-thik afin d’offrir une solution innovante de stockage et de livraison directe aux consommateurs. Ces casiers automatisés optimisent la gestion logistique en facilitant l’accès aux produits et en structurant le planogramme et le suivi des stocks.",
         image: '/sidi_taleb/assets/images/projets/casier_d2c.png',
-        context: 'Ce projet a été conçu pour optimiser la gestion des tâches et améliorer la productivité des utilisateurs dans leur vie professionnelle et personnelle.',
+        context: "Face au retard de livraison des casiers physiques, un simulateur a été développé pour reproduire leur fonctionnement, tester la gestion des produits et organiser le planogramme, assurant ainsi une gestion efficace de l’espace.",
         technologies: ['React', 'Python', 'Django', 'PostgreSQL'],
         etat: 'Prototype',
     },
