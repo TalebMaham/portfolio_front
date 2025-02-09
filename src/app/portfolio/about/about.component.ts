@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class AboutComponent {
   constructor(private router: Router) {}
 
-  photoUrl = '/assets/logo.jpg'; // Photo de profil
+  photoUrl = '/sidi_taleb/assets/logo.jpg'; // Photo de profil
 
   sections = [
     { title: 'Formations', isOpen: false },
@@ -19,31 +19,34 @@ export class AboutComponent {
     { title: 'Intérêts', isOpen: false },
   ];
 
-  formations = [
-    { titre: 'ANALYST DEVOPS', institution: 'Institut National des Technologies Avancées', annee: '2022 - 2023' },
-    { titre: 'Licence en Informatique', institution: 'Sorbonne Université', annee: '2020' },
+ formations = [
+    { titre: 'Expert en ingénierie logicielle', institution: 'ISCOD', annee: '2024' },
+    { titre: 'Analyste DevOps', institution: 'Institut National des Technologies Avancées', annee: '2022' },
+    { titre: 'Licence en Informatique', institution: 'Sorbonne Université', annee: '2019' },
     { titre: 'Licence en Mathématiques', institution: 'Université de Nouakchott', annee: '2017' }
   ];
+  
 
-  experiences = [
-    { poste: 'Développeur Back-end ', entreprise: 'E-thik', periode: '2022 - 2023' },
+ experiences = [
+    { poste: 'Développeur Back-end', entreprise: 'E-thik', periode: '2022 - 2023' },
     { poste: 'Développeur Full Stack', entreprise: 'Cash Flow Positif', periode: '2024 - 2025' },
+    { poste: 'Professeur', entreprise: 'PARKOUR, Acadomia, Complétude', periode: '2020 - actuellement' },
   ];
-
+  
   interets = ['Lecture', 'Pêche', 'Voyages', 'Développement Web'];
 
   competences = [
-    { name: 'JavaScript', icon: 'assets/images/competences/javascript.png' },
-    { name:  'Flask', icon: 'assets/images/competences/flask.png'},
-    { name: 'Django', icon: 'assets/images/competences/django.png'},
-    { name: 'Angular', icon: 'assets/images/competences/angular.png' },
-    { name: 'React', icon: 'assets/images/competences/react.png' },
-    { name: 'TypeScript', icon: 'assets/images/competences/typescript.png' },
-    { name: 'Node.js', icon: 'assets/images/competences/nodejs.png' },
-    { name: 'Symfony', icon: 'assets/images/competences/symfony.png' },
-    { name: 'MySQL', icon: 'assets/images/competences/mysql.png' },
-    { name: 'Python', icon: 'assets/images/competences/python.png' },
-    { name: 'Git', icon: 'assets/images/competences/git.png' }
+    { name: 'JavaScript', icon: '/sidi_taleb/assets/images/competences/javascript.png' },
+    { name:  'Flask', icon: '/sidi_taleb/assets/images/competences/flask.png'},
+    { name: 'Django', icon: '/sidi_taleb/assets/images/competences/django.png'},
+    { name: 'Angular', icon: '/sidi_taleb/assets/images/competences/angular.png' },
+    { name: 'React', icon: '/sidi_taleb/assets/images/competences/react.png' },
+    { name: 'TypeScript', icon: '/sidi_taleb/assets/images/competences/typescript.png' },
+    { name: 'Node.js', icon: '/sidi_taleb/assets/images/competences/nodejs.png' },
+    { name: 'Symfony', icon: '/sidi_taleb/assets/images/competences/symfony.png' },
+    { name: 'MySQL', icon: '/sidi_taleb/assets/images/competences/mysql.png' },
+    { name: 'Python', icon: '/sidi_taleb/assets/images/competences/python.png' },
+    { name: 'Git', icon: '/sidi_taleb/assets/images/competences/git.png' }
   ];
 
   // Navigation vers les différentes pages

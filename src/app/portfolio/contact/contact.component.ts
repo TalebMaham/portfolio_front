@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -7,20 +8,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent {
+  @ViewChild('contactForm') contactForm!: NgForm;
   isRecrutement = false;
+  showToast = false;
 
   // Gère le changement dans le champ "Raison de contact"
   onReasonChange(event: Event) {
-    const target = event.target as HTMLSelectElement; // Cast du type
-    const reason = target.value; // Accès sécurisé à la valeur
-    this.isRecrutement = reason === 'recrutement';
+    const target = event.target as HTMLSelectElement;
+    this.isRecrutement = target.value === 'recrutement';
   }
-  
-  
 
   // Gère la soumission du formulaire
   onSubmit(formData: any) {
     console.log('Formulaire soumis :', formData);
-    // Ajoutez ici votre logique pour traiter les données (exemple : appel à un service)
+
+    // Réinitialisation du formulaire
+    if (this.contactForm) {
+      this.contactForm.resetForm();
+      this.isRecrutement = false; // Réinitialiser l'affichage conditionnel
+    }
+
+    // Afficher le toast
+    this.showToast = true;
+    setTimeout(() => {
+      this.showToast = false;
+    }, 3000); // Disparition du toast après 3 secondes
   }
 }
