@@ -1,0 +1,15 @@
+<div *ngIf="selectedFormation; else notFound" class="formation-detail">
+    <img
+      [src]="selectedFormation.icon"
+      [alt]="selectedFormation.titre"
+      class="formation-detail-icon"
+    />
+    <h2>{{ selectedFormation.titre }}</h2>
+    <p><strong>{{ selectedFormation.institution }}</strong> – <em>{{ selectedFormation.annee }}</em></p>
+    <div class="markdown-body" [innerHTML]="htmlContent"></div>
+  </div>
+  
+  <ng-template #notFound>
+    <p>Formation non reconnue.</p>
+  </ng-template>
+  

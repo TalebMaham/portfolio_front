@@ -17,32 +17,41 @@
 
   <!-- Modal -->
   <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content border-dark">
-        <div class="modal-header bg-dark text-white">
-          <h5 class="modal-title" id="projectModalLabel">{{ selectedProject?.title }}</h5>
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content border-dark rounded-3 shadow">
+        <div class="modal-header bg-dark text-white border-bottom-0">
+          <h5 class="modal-title fw-bold" id="projectModalLabel">{{ selectedProject?.title }}</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          <p><strong>Description:</strong> {{ selectedProject?.description }}</p>
-          <p><strong>Contexte:</strong> {{ selectedProject?.context }}</p>
-          <p><strong>Technologies utilisées:</strong></p>
-          <ul>
-            <li *ngFor="let tech of selectedProject?.technologies">{{ tech }}</li>
+  
+        <div class="modal-body bg-light text-dark px-4 py-3">
+          <p class="text-start"><strong>Description :</strong><br>{{ selectedProject?.description }}</p>
+          <p class="text-start"><strong>Contexte :</strong><br>{{ selectedProject?.context }}</p>
+          
+  
+          <p><strong>Technologies utilisées :</strong></p>
+          <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item bg-light text-dark px-0" *ngFor="let tech of selectedProject?.technologies">
+              • {{ tech }}
+            </li>
           </ul>
-          <p><strong>État actuel:</strong> {{ selectedProject?.etat }}</p>
+  
+          <p><strong>État actuel :</strong><br>{{ selectedProject?.etat }}</p>
         </div>
-        
-        <div class="modal-footer">
-          <button *ngIf="selectedProject?.codeLink" class="btn btn-dark" (click)="viewCode(selectedProject?.codeLink || '')">
-            Voir le code source
-          </button>
-          <button *ngIf="selectedProject?.productionLink" class="btn btn-dark" (click)="goToProduction(selectedProject?.productionLink || '')">
-            En production
-          </button>
-          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fermer</button>
+  
+        <div class="modal-footer bg-dark text-white border-top-0 d-flex justify-content-between">
+          <div>
+            <button *ngIf="selectedProject?.codeLink" class="btn btn-outline-light me-2" (click)="viewCode(selectedProject?.codeLink || '')">
+              Voir le code source
+            </button>
+            <button *ngIf="selectedProject?.productionLink" class="btn btn-outline-light" (click)="goToProduction(selectedProject?.productionLink || '')">
+              En production
+            </button>
+          </div>
+          <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Fermer</button>
         </div>
       </div>
     </div>
   </div>
+  
 </div>

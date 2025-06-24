@@ -1,0 +1,13 @@
+<div *ngIf="selectedSoftSkill; else notFound" class="soft-skill-detail">
+  <img
+    [src]="selectedSoftSkill.icon"
+    [alt]="selectedSoftSkill.name"
+    class="soft-skill-detail-icon"
+  />
+  <h2>{{ selectedSoftSkill.name }}</h2>
+  <div class="markdown-body" [innerHTML]="formatMarkdown(selectedSoftSkill.markdown)"></div>
+</div>
+
+<ng-template #notFound>
+  <p>Soft skill non reconnue.</p>
+</ng-template>

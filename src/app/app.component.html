@@ -1,6 +1,7 @@
 <header>
   <nav>
     <ul class="navbar">
+      <li><a routerLink="/portfolio/accueil">Accueil</a></li>
       <li><a routerLink="/portfolio/about">About</a></li>
       <li><a routerLink="/portfolio/project">Projects</a></li>
       <li><a routerLink="/portfolio/contact">Contact</a></li>
@@ -9,12 +10,11 @@
 </header>
 
 <main class="content">
-  <img [src]="'/sidi_taleb/assets/logo.jpg'" alt="Logo de Mon Portfolio" class="logo" />
-  <h1>Bienvenue sur Mon Portfolio</h1>
-  <p>Je suis développeur full stack passionné. Découvrez mes projets, mes compétences et apprenez-en plus sur mon parcours.</p>
+  <img [src]="'/assets/logo.jpg'" alt="Logo de Mon Portfolio" class="logo" />
+  <h3 class="typing" id="name"></h3>
+  <p class="typing" id="desc"></p>
   <router-outlet></router-outlet>
 </main>
-
 
 <footer>
   <p>&copy; 2024 My Portfolio. All rights reserved.</p>

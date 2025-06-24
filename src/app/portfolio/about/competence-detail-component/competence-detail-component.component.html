@@ -1,0 +1,10 @@
+<div *ngIf="selectedCompetence; else notFound" class="competence-detail">
+    <img [src]="selectedCompetence.icon" [alt]="selectedCompetence.name" class="competence-detail-icon" />
+    <h2>{{ selectedCompetence.name }}</h2>
+    <div class="markdown-body" [innerHTML]="htmlContent"></div>
+  </div>
+  
+  <ng-template #notFound>
+    <p>Compétence non reconnue.</p>
+  </ng-template>
+  

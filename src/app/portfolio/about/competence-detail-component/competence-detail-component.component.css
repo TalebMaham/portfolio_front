@@ -1,4 +1,14 @@
-.markdown-body {
+.competence-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .competence-detail-icon {
+    width: 80px;
+    height: auto;
+  }
+  
+  .markdown-body {
     font-size: 1rem;
     line-height: 1.8;
     max-width: 700px;

@@ -1,0 +1,15 @@
+<div *ngIf="selectedExperience; else notFound" class="comptence-detail">
+  <img
+    [src]="selectedExperience.icon"
+    [alt]="selectedExperience.poste"
+    class="experience-detail-icon"
+  />
+  <h2>{{ selectedExperience.poste }} – {{ selectedExperience.entreprise }}</h2>
+  <p><em>{{ selectedExperience.periode }}</em></p>
+  <div class="markdown-body" [innerHTML]="htmlContent"></div>
+</div>
+
+<ng-template #notFound>
+  <p>Expérience non reconnue.</p>
+</ng-template>
+

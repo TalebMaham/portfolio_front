@@ -11,25 +11,46 @@
         <div *ngIf="section.title === 'Formations'" class="section-content">
           <ul>
             <li *ngFor="let formation of formations">
-              <strong>{{ formation.titre }}</strong> - {{ formation.institution }} ({{ formation.annee }})
+              <a [routerLink]="['/portfolio/formation', formation.id]">
+                <strong>{{ formation.titre }}</strong> - {{ formation.institution }} ({{ formation.annee }})
+                <img [src]="formation.icon" [alt]="formation.titre" class="competence-icon" />
+              </a>
             </li>
           </ul>
         </div>
         <div *ngIf="section.title === 'Expériences Professionnelles'" class="section-content">
           <ul>
             <li *ngFor="let experience of experiences">
-              <strong>{{ experience.poste }}</strong> - {{ experience.entreprise }} ({{ experience.periode }})
+              <a [routerLink]="['/portfolio/experience', experience.id]">
+                <strong>{{ experience.poste }}</strong> - {{experience.entreprise}} {{experience.periode}}
+                <img [src]="experience.icon" [alt]="experience.poste" class="competence-icon" />
+              </a>
             </li>
           </ul>
         </div>
+        
         <div *ngIf="section.title === 'Compétences'" class="section-content">
           <ul>
             <li *ngFor="let competence of competences">
-              <img [src]="competence.icon" [alt]="competence.name" class="competence-icon" />
-              {{ competence.name }}
+              <a [routerLink]="['/portfolio/competence', competence.name.toLowerCase()]">
+                <img [src]="competence.icon" [alt]="competence.name" class="competence-icon" />
+                {{ competence.name }}
+              </a>
             </li>
           </ul>
         </div>
+
+        <div *ngIf="section.title === 'Soft-Skills'" class="section-content">
+          <ul>
+            <li *ngFor="let softSkill of softSkills">
+              <a [routerLink]="['/portfolio/soft-skill', softSkill.id]">
+                <img [src]="softSkill.icon" [alt]="softSkill.name" class="competence-icon" />
+                {{ softSkill.name }}
+              </a>
+            </li>
+          </ul>
+        </div>
+        
         <div *ngIf="section.title === 'Intérêts'" class="section-content">
           <ul>
             <li *ngFor="let interet of interets">{{ interet }}</li>
@@ -39,15 +60,8 @@
     </div>
   </div>
 
-  <div class="navigation-buttons">
-    <button (click)="navigateToProjects()" class="btn">Voir mes projets</button>
-    <button (click)="navigateToContact()" class="btn">Me contacter</button>
-  </div>
 
-  <div class="cv-buttons">
-    <button (click)="printGlobalCV()" class="btn btn-dark me-2">Imprimer le CV global</button>
-  </div>
-  
+
   <div class="social-links">
     <a href="https://github.com/TalebMaham/" target="_blank" class="btn btn-social">
        GitHub
