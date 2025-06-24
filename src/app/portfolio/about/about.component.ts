@@ -21,10 +21,10 @@ export class AboutComponent {
   ];
 
  formations = [
-    {id: 1,  titre: 'Expert en ingénierie logicielle', institution: 'ISCOD', annee: '2024',  icon: "/assets/images/competences/javascript.png" },
-    {id :2,  titre: 'Analyste DevOps', institution: 'Institut National des Technologies Avancées', annee: '2022', icon: "/assets/images/competences/javascript.png" },
-    {id: 3,  titre: 'Licence en Informatique', institution: 'Sorbonne Université', annee: '2019', icon: "/assets/images/competences/javascript.png" },
-    {id: 4,  titre: 'Licence en Mathématiques', institution: 'Université de Nouakchott', annee: '2017', icon: "/assets/images/competences/javascript.png" }
+    {id: 1,  titre: 'Expert en ingénierie logicielle', institution: 'ISCOD', annee: '2024',  icon: "/assets/images/formations/iscod.png" },
+    {id :2,  titre: 'Analyste DevOps', institution: 'Institut National des Technologies Avancées', annee: '2022', icon: "/assets/images/formations/cfa-insta.png" },
+    {id: 3,  titre: 'Licence en Informatique', institution: 'Sorbonne Université', annee: '2019', icon: "/assets/images/formations/sorbonne.png" },
+    {id: 4,  titre: 'Licence en Mathématiques', institution: 'Université de Nouakchott', annee: '2017', icon: "/assets/images/formations/u_n_a.png" }
   ];
   
 

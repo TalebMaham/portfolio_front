@@ -14,7 +14,7 @@ export interface Formation {
       titre: '🎓 Expert en Ingénierie Logicielle',
       institution: 'ISCOD – Institut Supérieur des Compétences',
       annee: '2024',
-      icon: '/assets/images/competences/fullstack.png',
+      icon: '/assets/images/formations/iscod.png',
       markdown: `
   **🎯 Objectif :** Maîtriser les architectures complexes et le cycle de vie complet du développement logiciel.
   
@@ -32,7 +32,7 @@ export interface Formation {
       titre: '🔧 Analyste DevOps',
       institution: 'INTA – Institut National des Technologies Avancées',
       annee: '2022',
-      icon: '/assets/images/competences/devops.png',
+      icon: '/assets/images/formations/cfa-insta.png',
       markdown: `
   **🎯 Objectif :** Automatiser, livrer et maintenir des applications modernes à l’échelle.
   
@@ -50,7 +50,7 @@ export interface Formation {
       titre: '🧑‍💻 Licence en Informatique',
       institution: 'Sorbonne Université – Paris',
       annee: '2019',
-      icon: '/assets/images/competences/algorithm.png',
+      icon: '/assets/images/formations/sorbonne.png',
       markdown: `
   **🎯 Fondations solides en science informatique.**
   
@@ -68,7 +68,7 @@ export interface Formation {
       titre: '📐 Licence en Mathématiques',
       institution: 'Université de Nouakchott',
       annee: '2017',
-      icon: '/assets/images/competences/math.png',
+      icon: '/assets/images/formations/u_n_a.png',
       markdown: `
   **🎯 Renforcement de la logique, rigueur et abstraction.**
   
