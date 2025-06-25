@@ -16,16 +16,20 @@ export interface CompetenceMarkdown {
   ---
   
   ### 🔎 Ma définition
-  Angular permet de construire des applications web modulaires, performantes et maintenables grâce à une architecture basée sur les **composants**, les **services** et le **data binding**.
-  
+
+  Angular, c’est le premier framework front avec lequel je me suis vraiment senti à l’aise. Il gère pour moi la liaison entre HTML, CSS et JavaScript, ce qui me fait gagner un temps fou. J’aime sa façon de structurer l’application en composants, chacun pouvant en contenir d’autres, comme un système de blocs bien organisés. En tant que développeur plutôt orienté back-end, c’est justement cette rigueur qui me plaît. Je n’ai pas besoin de tout réinventer à chaque fois, tout est pensé pour rester clair et maintenable. Et puis, Angular est très demandé sur le marché. Je le vois souvent dans les offres des entreprises exigeantes, donc le maîtriser, c’est clairement un plus.
+
   ---
   
   ### 📂 Mes éléments de preuve
   - Création de dashboards interactifs pour la gestion de projets.
   - Intégration d’une API REST (Django) via \`HttpClient\`.
-  - Utilisation de \`ReactiveForms\` pour des formulaires dynamiques.
   - Mise en place du routing avec navigation conditionnelle.
-  
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="https://github.com/TalebMaham/to_do_app">Depot Application Gestion de projet</a>
+  </div>
+
   ---
   
   ### 🧪 Mon autocritique
@@ -51,8 +55,9 @@ export interface CompetenceMarkdown {
   ---
   
   ### 🔎 Ma définition
-  Flask permet de créer rapidement des **APIs REST** ou des applications web, avec une architecture claire et un fort potentiel d’extension.
-  
+
+  Flask, c’est le framework que j’utilise quand je veux aller droit au but. Il est léger, simple à comprendre, et me permet de mettre en place une API propre sans perdre de temps. Je l’utilise souvent comme une couche intermédiaire dans mes projets : pour filtrer les données, sécuriser, sérialiser, ou simplement mieux organiser les échanges avant d’attaquer une API plus lourde, comme une Django REST. Même quand ce n’est pas obligatoire, j’ai tendance à le glisser dans mes projets, parce qu’il s’intègre bien avec tout ce que j’utilise. Il est un peu devenu mon outil passe-partout côté back.
+
   ---
   
   ### 📂 Mes éléments de preuve
@@ -60,6 +65,13 @@ export interface CompetenceMarkdown {
   - Routing clair via les décorateurs Python.
   - Utilisation de fichiers JSON pour la persistance.
   - API REST consommée par un front-end Angular.
+
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   
@@ -86,14 +98,21 @@ export interface CompetenceMarkdown {
   ---
   
   ### 🔎 Ma définition
-  JavaScript permet de manipuler dynamiquement le DOM, gérer les événements et créer des applications web interactives.
-  
+
+  JavaScript, c’est la base. Tous les frameworks front reposent dessus, donc il faut le comprendre avant tout le reste. Au début, je l’ai utilisé sans rien autour, juste en “vanille”, pour manipuler le DOM, réagir à des clics, et rendre les pages interactives. Et franchement, ça m’a appris énormément. Il y a plein de cas où un framework complet est inutile : un peu de JS suffit pour faire le boulot. Pour moi, il est indispensable de commencer avec JavaScript seul. Et puis, on ne peut pas utiliser TypeScript sérieusement sans avoir les bases de JS, surtout que TypeScript finit toujours par redevenir du JavaScript à l’exécution.
+
   ---
   
   ### 📂 Mes éléments de preuve
   - Développement d’interfaces interactives avec vanilla JS.
   - Intégration d’appels AJAX pour récupérer des données dynamiquement.
   - Manipulation d’éléments DOM, écouteurs d’événements, temporisation.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
+  
   
   ---
   
@@ -121,14 +140,22 @@ export interface CompetenceMarkdown {
   ---
   
   ### 🔎 Ma définition
-  Django propose une approche “batteries incluses” : ORM, admin automatique, routing, templating, et sécurité intégrée.
-  
+
+  Django m’a simplifié la vie. Avant, transformer une classe en table, gérer les erreurs, faire les vérifications… c’était long et parfois pénible. Avec Django, je peux tout poser clairement avec son ORM, et ça fonctionne sans devoir écrire des tonnes de code. Ce que j’apprécie aussi, c’est qu’il prend en charge l’admin, la sécurité, les routes, tout est déjà prêt. La gestion des rôles, des groupes, des permissions... tout est pensé. Et comme c’est en Python, c’est lisible et rapide à prendre en main. Dès que je dois créer une API propre et bien structurée, je pense d’abord à Django.
+
+      
   ---
   
   ### 📂 Mes éléments de preuve
   - Développement d’une API REST avec Django REST Framework.
   - Utilisation de l’admin pour la gestion de contenu.
   - Authentification, gestion des permissions, filtres et pagination.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   
@@ -164,6 +191,9 @@ export interface CompetenceMarkdown {
   - Réalisation de composants réutilisables.
   - Utilisation de hooks comme \`useState\`, \`useEffect\`.
   - Intégration d’APIs REST avec \`fetch\` ou \`axios\`.
+  <div style="margin-top: 1rem;">
+   <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+  </div>
   
   ---
   
@@ -189,16 +219,21 @@ export interface CompetenceMarkdown {
   TypeScript est un sur-ensemble de JavaScript qui ajoute le typage statique.
   
   ---
-  
   ### 🔎 Ma définition
-  TypeScript améliore la lisibilité, la robustesse et l’évolutivité du code grâce à la détection d’erreurs à la compilation.
-  
+
+  TypeScript m’a vraiment fait gagner en confort. Les erreurs de typage, c’est souvent les pires à repérer, surtout quand le bug arrive loin dans le code. Avec TypeScript, je les vois avant même d’exécuter quoi que ce soit. Le fait que le langage soit fortement typé me force à réfléchir clairement à ce que je fais. Et dans mon entreprise, la différence est flagrante : le front en TypeScript est beaucoup plus stable que le back en Python. Cette rigueur imposée par le typage, au final, elle m’aide à écrire du code plus propre, plus solide, et plus prévisible.
+
+    
   ---
   
   ### 📂 Mes éléments de preuve
   - Utilisation quotidienne avec Angular.
   - Création d’interfaces, types personnalisés et enums.
   - Sécurisation des appels d’API par typage des réponses attendues.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="https://github.com/TalebMaham/to_do_app">Depot Application Gestion de projet</a>
+  </div>
   
   ---
   
@@ -217,7 +252,7 @@ export interface CompetenceMarkdown {
     },
 
     {
-      name: 'Node.js',
+      name: 'Nodejs',
       markdown: `
   ## 🌐 Node.js
   
@@ -226,7 +261,9 @@ export interface CompetenceMarkdown {
   ---
   
   ### 🔎 Ma définition
-  Node.js permet d’exécuter du JS en dehors du navigateur, notamment pour créer des serveurs web légers et performants.
+
+  Node.js m’a permis de sortir JavaScript du navigateur et de créer des serveurs simples, rapides et efficaces. Ce que j’aime, c’est sa légèreté : je peux lancer une API en quelques lignes, sans grosse configuration. Il gère très bien les requêtes simultanées, même sur des machines limitées. Tous les projets Node.js que j’ai sur mon GitHub sont perso, souvent faits pour tester une idée ou automatiser une tâche. Je ne l’utilise pas en entreprise, mais je le garde toujours sous la main. Pour moi, c’est un bon outil de secours quand j’ai besoin d’aller vite ou de rester 100 % JavaScript, du front au back.
+
   
   ---
   
@@ -234,6 +271,9 @@ export interface CompetenceMarkdown {
   - Création d’APIs simples avec Express.
   - Manipulation de fichiers système avec \`fs\`.
   - Gestion des routes, middlewares, et réponses JSON.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="https://github.com/TalebMaham/PayEase">Depot d'une application de e-commerce</a>
+  </div>
   
   ---
   
@@ -260,14 +300,21 @@ export interface CompetenceMarkdown {
   ---
   
   ### 🔎 Ma définition
-  MySQL permet de stocker, interroger et organiser des données structurées à l’aide du langage SQL.
-  
+
+  MySQL me sert à stocker et organiser des données de manière structurée avec le langage SQL. C’est la première base de données que j’ai utilisée dans mes projets, et c’est avec elle que j’ai vraiment compris ce que signifie créer des relations entre des tables, poser les bonnes clés, et interroger les données efficacement. J’ai aussi appris à optimiser mes requêtes quand les volumes grandissaient. Aujourd’hui encore, c’est la base que j’utilise le plus, parce qu’elle est simple à mettre en place, stable et compatible avec tous les outils que j’utilise. Elle m’a permis de construire des projets concrets, durables, avec une vraie logique de persistance.
+    
   ---
   
   ### 📂 Mes éléments de preuve
   - Modélisation de bases relationnelles pour applications web.
   - Utilisation de JOIN, GROUP BY, et sous-requêtes.
   - Création de vues et procédures stockées simples.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de Stock</a>
+    <a class="btn btn-outline-secondary" href="https://github.com/TalebMaham/PayEase">Depot d'une application de e-commerce</a>
+    <a class="btn btn-outline-secondary" href="https://github.com/TalebMaham/PayEase">Depot d'une application de e-commerce</a>
+  </div>
   
   ---
   
@@ -295,14 +342,19 @@ export interface CompetenceMarkdown {
   ---
   
   ### 🔎 Ma définition
-  Symfony repose sur une architecture MVC stricte et orientée bonnes pratiques (routes, contrôleurs, services, événements...).
-  
+
+  Symfony, c’est avec lui que j’ai vraiment compris le modèle MVC. Avant, je bricolais sans trop savoir comment structurer mes projets. Avec Symfony, tout devient clair : on sépare ce qui affiche, ce qui traite, et ce qui stocke. C’est le premier framework qui m’a imposé une vraie rigueur. J’ai appris à bien organiser mon code, à utiliser des services, des contrôleurs propres, à penser sécurité, validations, et logique métier de façon claire. Même si aujourd’hui j’utilise d’autres outils selon les projets, Symfony reste pour moi la meilleure école pour apprendre à coder proprement côté back.
+
   ---
   
   ### 📂 Mes éléments de preuve
   - Développement CRUD complet avec Doctrine ORM.
   - Utilisation des commandes CLI Symfony pour générer code et migrations.
   - Mise en place d’une API JSON avec normalisateurs et sérialisation.
+    <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="https://github.com/TalebMaham/gestion">Depot d'une application de Gestion</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/experience/2">L'entreprise Cash flow positif</a>
+  </div>
   
   ---
   
@@ -338,6 +390,13 @@ export interface CompetenceMarkdown {
   - Développement d’APIs avec Flask et Django.
   - Scripts d’automatisation et parsing de fichiers.
   - Simulations industrielles et TP électroniques.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/experience/1">Largement utilisé chez E-thik</a>
+  </div>
   
   ---
   
@@ -373,6 +432,13 @@ export interface CompetenceMarkdown {
   - Utilisation quotidienne avec GitHub.
   - Gestion de branches, rebase, merge, conflits.
   - Intégration dans des workflows CI/CD avec GitLab CI et GitHub Actions.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   

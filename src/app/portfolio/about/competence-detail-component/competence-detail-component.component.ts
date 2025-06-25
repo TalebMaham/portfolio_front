@@ -22,7 +22,7 @@ export class CompetenceDetailComponentComponent implements OnInit {
     { name: 'Angular', icon: '/assets/images/competences/angular.png' },
     { name: 'React', icon: '/assets/images/competences/react.png' },
     { name: 'TypeScript', icon: '/assets/images/competences/typescript.png' },
-    { name: 'Node.js', icon: '/assets/images/competences/nodejs.png' },
+    { name: 'Nodejs', icon: '/assets/images/competences/nodejs.png' },
     { name: 'Symfony', icon: '/assets/images/competences/symfony.png' },
     { name: 'MySQL', icon: '/assets/images/competences/mysql.png' },
     { name: 'Python', icon: '/assets/images/competences/python.png' },

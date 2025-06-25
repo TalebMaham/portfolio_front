@@ -16,6 +16,10 @@ export interface Formation {
       annee: '2024',
       icon: '/assets/images/formations/iscod.png',
       markdown: `
+
+  📍 [ISCOD – Institut Supérieur des Compétences de Demain](https://www.iscod.fr)  
+      92-98 Boulevard Victor Hugo, 92110 Clichy, France
+
   **🎯 Objectif :** Maîtriser les architectures complexes et le cycle de vie complet du développement logiciel.
   
   ### 🛠️ Modules clés :
@@ -30,10 +34,13 @@ export interface Formation {
     {
       id: 2,
       titre: '🔧 Analyste DevOps',
-      institution: 'INTA – Institut National des Technologies Avancées',
+      institution: 'CFA-INSTA – Institut National des Technologies Avancées',
       annee: '2022',
       icon: '/assets/images/formations/cfa-insta.png',
       markdown: `
+  🏫 [CFA-INSTA – Institut National des Technologies Avancées](https://www.cfa-insta.fr)  
+  12 Rue Alexandre Parodi, 75010 Paris, France
+
   **🎯 Objectif :** Automatiser, livrer et maintenir des applications modernes à l’échelle.
   
   ### 🛠️ Compétences pratiques :
@@ -52,6 +59,11 @@ export interface Formation {
       annee: '2019',
       icon: '/assets/images/formations/sorbonne.png',
       markdown: `
+
+
+  🎓 [Sorbonne Université](https://www.sorbonne-universite.fr)  
+    4 Place Jussieu, 75005 Paris, France
+
   **🎯 Fondations solides en science informatique.**
   
   ### 📘 Cours principaux :
@@ -59,8 +71,8 @@ export interface Formation {
   - Programmation orientée objet : Java, C, Python
   - Bases de données relationnelles (SQL) & Systèmes Unix/Linux
   
-  ### 💡 Mémoire :
-  Optimisation des performances d’un algorithme de tri hybride.
+
+
   `
     },
     {
@@ -70,6 +82,10 @@ export interface Formation {
       annee: '2017',
       icon: '/assets/images/formations/u_n_a.png',
       markdown: `
+  
+  🎓 [Université de Nouakchott Al Aasriya](https://www.univ-nkc.mr)  
+      Avenue Gamal Abdel Nasser, Nouakchott, Mauritanie
+
   **🎯 Renforcement de la logique, rigueur et abstraction.**
   
   ### 📘 Domaines étudiés :

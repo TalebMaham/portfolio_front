@@ -10,22 +10,30 @@ export interface SoftSkill {
   export const SOFT_SKILLS: SoftSkill[] = [
     {
       id: 1,
-      name: 'Parler dans le public',
-      icon: '/assets/images/competences/javascript.png',
+      name: 'Communication claire',
+      icon: '/assets/images/soft-skills/micro.png',
       markdown: `
-  ## 🗣️ Parler en public
+  ## 🗣️ La communication claire
   
   ---
   
   ### 🔎 Ma définition
-  C’est la capacité à transmettre clairement ses idées devant un groupe, en s’adaptant à l’auditoire et en gérant son stress.
-  
+
+  La communication claire, c’est quand ce que je dis est compris tout de suite, sans que l’autre ait besoin de me reposer la question. C’est aller droit au but, sans jargon inutile. Quand j’explique quelque chose, je veux que ce soit simple, concret, sans flou. Si quelqu’un bloque, je reformule. Si c’est long, je découpe. Je ne cherche pas à impressionner, je cherche à me faire comprendre. Dans un projet, mal s’exprimer, c’est perdre du temps. Bien s’exprimer, c’est avancer ensemble.
+
   ---
   
   ### 📂 Mes éléments de preuve
   - Présentations de projets en entreprise.
   - Animation de réunions techniques.
   - Interventions orales lors de sessions de formation.
+    <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   
@@ -44,22 +52,30 @@ export interface SoftSkill {
     },
     {
       id: 2,
-      name: 'Collaborer',
-      icon: '/assets/images/competences/flask.png',
+      name: 'Esprit d’équipe',
+      icon: '/assets/images/soft-skills/trello.png',
       markdown: `
   ## 🤝 Collaborer
   
   ---
   
   ### 🔎 Ma définition
-  Collaborer, c’est travailler efficacement avec d’autres personnes pour atteindre un objectif commun tout en maintenant un bon climat de travail.
-  
+
+  Dans un projet logiciel, collaborer, c’est plus que juste bosser à plusieurs. C’est partager son code, ses idées, ses doutes. C’est faire des revues de code sans juger, poser des questions sans gêne, aider quand quelqu’un bloque. Je ne travaille pas pour montrer que j’ai raison, je travaille pour que le produit sorte propre et solide. Quand on collabore bien, on gagne du temps, on évite les malentendus, et surtout, on ne reste jamais seul face à un bug. Le but, ce n’est pas d’avoir des héros, c’est d’avoir une équipe qui avance.
+
   ---
   
   ### 📂 Mes éléments de preuve
   - Travail en équipe dans des projets agiles.
   - Pair programming sur des tâches critiques.
   - Communication fluide dans des contextes interculturels.
+    <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   
@@ -78,22 +94,31 @@ export interface SoftSkill {
     },
     {
       id: 3,
-      name: 'Diriger',
-      icon: '/assets/images/competences/django.png',
+      name: 'Gestion du temps',
+      icon: '/assets/images/soft-skills/pomodor.png',
       markdown: `
-  ## 🧭 Diriger
+  ## 🧭Gestion du temps
   
   ---
   
   ### 🔎 Ma définition
-  Diriger, c’est donner une vision, organiser, prendre des décisions et accompagner les autres dans leur montée en compétence.
-  
+
+  En génie logiciel, gérer son temps, c’est surtout éviter de le gaspiller. Il y a toujours des tâches urgentes, du code à revoir, des réunions qui s’ajoutent. Si je ne hiérarchise pas, je me fais aspirer. Alors je pose mes priorités : ce qui débloque l’équipe d’abord, les tâches complexes ensuite, les détails plus tard. J’essaie de regrouper les choses similaires pour ne pas me disperser. Je garde du temps pour réfléchir, pas juste pour exécuter. Et surtout, je ne me cache pas derrière le mot "chargé" : si je perds du temps, je me le dis, je corrige. Pour moi, bien gérer mon temps, c’est écrire moins, mais mieux.
+
+    
   ---
   
   ### 📂 Mes éléments de preuve
   - Encadrement de développeurs juniors.
   - Prise en charge de l’organisation de sprints.
   - Décisions techniques sur des choix d’architecture.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   
@@ -113,21 +138,30 @@ export interface SoftSkill {
     {
       id: 4,
       name: 'Résoudre des problèmes',
-      icon: '/assets/images/competences/python.png',
+      icon: '/assets/images/soft-skills/pb.png',
       markdown: `
   ## 🧠 Résoudre des problèmes
   
   ---
   
   ### 🔎 Ma définition
-  C’est la capacité à analyser une situation complexe, identifier les causes et proposer des solutions efficaces.
-  
+
+  Résoudre un problème en génie logiciel, ce n’est pas juste trouver une solution, c’est comprendre **vraiment** d’où vient le bug ou le blocage. Je commence par observer, reproduire, poser les bonnes questions. Parfois, ce n’est pas le code le souci, c’est la logique, la spec, ou un truc mal compris entre deux devs. J’évite de patcher vite fait. Je préfère perdre du temps à bien creuser que corriger trois fois. Une fois que j’ai la cause, je cherche une solution simple, stable, et si possible réutilisable. Résoudre un problème, c’est pas briller, c’est débloquer les autres et éviter que ça revienne.
+
+    
   ---
   
   ### 📂 Mes éléments de preuve
   - Résolution de bugs critiques en production.
   - Refactorisation de code inefficace.
   - Propositions d’optimisations dans l’architecture logicielle.
+  <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   
@@ -147,7 +181,7 @@ export interface SoftSkill {
     {
       id: 5,
       name: 'Gérer son temps',
-      icon: '/assets/images/competences/typescript.png',
+      icon: '/assets/images/soft-skills/pomodor.png',
       markdown: `
   ## ⏳ Gérer son temps
   
@@ -162,6 +196,13 @@ export interface SoftSkill {
   - Utilisation quotidienne d’outils comme Trello, Notion.
   - Répartition efficace entre tâches prioritaires et secondaires.
   - Livraison de projets dans les délais.
+    <div style="margin-top: 1rem;">
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/6">Porfolio</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/4">Blood Bank</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/2">Monnayeur</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/3">Casiers</a>
+    <a class="btn btn-outline-secondary" href="/portfolio/project/details/1">Gestion de stock</a>
+  </div>
   
   ---
   

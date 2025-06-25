@@ -29,9 +29,9 @@ export class AboutComponent {
   
 
  experiences = [
-    {id : 1,  poste: 'Développeur Back-end', entreprise: 'E-thik', periode: '2022 - 2023', icon: "/assets/images/competences/javascript.png" },
-    {id : 2,  poste: 'Développeur Full Stack', entreprise: 'Cash Flow Positif', periode: '2024 - 2025', icon: "/assets/images/competences/javascript.png" },
-    {id : 3,  poste: 'Professeur', entreprise: 'PARKOUR, Acadomia, Complétude', periode: '2020 - actuellement', icon: "/assets/images/competences/javascript.png" },
+    {id : 1,  poste: 'Développeur Back-end', entreprise: 'E-thik', periode: '2023 - 2025', icon: "/assets/images/experiences/e-thik.png" },
+    {id : 2,  poste: 'Développeur Full Stack', entreprise: 'Cash Flow Positif', periode: '2022 - 2023', icon: "/assets/images/experiences/cash-flow.png" },
+    {id : 3,  poste: 'Professeur', entreprise: 'PARKOUR, Acadomia, Complétude', periode: '2020 - actuellement', icon: "/assets/images/experiences/prof.png" },
   ];
   
   interets = ['Lecture', 'Pêche', 'Voyages', 'Développement Web'];
@@ -41,9 +41,9 @@ export class AboutComponent {
     { name:  'Flask', icon: '/assets/images/competences/flask.png'},
     { name: 'Django', icon: '/assets/images/competences/django.png'},
     { name: 'Angular', icon: '/assets/images/competences/angular.png' },
-    { name: 'React', icon: '/assets/images/competences/react.png' },
+    // { name: 'React', icon: '/assets/images/competences/react.png' },
     { name: 'TypeScript', icon: '/assets/images/competences/typescript.png' },
-    { name: 'Node.js', icon: '/assets/images/competences/nodejs.png' },
+    { name: 'Nodejs', icon: '/assets/images/competences/nodejs.png' },
     { name: 'Symfony', icon: '/assets/images/competences/symfony.png' },
     { name: 'MySQL', icon: '/assets/images/competences/mysql.png' },
     { name: 'Python', icon: '/assets/images/competences/python.png' },
@@ -52,9 +52,10 @@ export class AboutComponent {
 
 
   softSkills = [
-    {id : 1,  name: 'JavaScript', icon: '/assets/images/competences/javascript.png' },
-    {id : 2,  name:  'Flask', icon: '/assets/images/competences/flask.png'},
-    {id : 3,  name: 'Django', icon: '/assets/images/competences/django.png'},
+    {id : 1,  name: 'Communication claire', icon: '/assets/images/soft-skills/micro.png' },
+    {id : 2,  name:  'Esprit d’équipe', icon: '/assets/images/soft-skills/trello.png'},
+    {id : 3,  name: 'Gestion du temps ', icon: '/assets/images/soft-skills/pomodor.png'},
+    {id : 4,  name: 'Résoudre des problèmes', icon: '/assets/images/soft-skills/pb.png'},
 
   ];
 

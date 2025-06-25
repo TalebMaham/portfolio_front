@@ -15,31 +15,42 @@ export interface ExperienceMarkdown {
       id: 1,
       entreprise: 'E-thik',
       poste: 'Développeur Back-end',
-      periode: '2022 - 2023',
-      icon: '/assets/images/competences/javascript.png',
+      periode: '2023 - 2025',
+      icon: '/assets/images/experiences/e-thik.png',
       markdown: `
-  ## 🏢 E-thik
-  
-  **E-thik** est une entreprise engagée dans la création de solutions numériques responsables, durables et éthiques. Elle propose des plateformes tech éco-conçues, à faible impact environnemental.
-  
+### 🏢 À propos de E-thik
+
+**E-thik** est une entreprise spécialisée dans la **traçabilité intelligente**, l’**identification** et la **connectivité industrielle**. Elle conçoit et fabrique des solutions matérielles et logicielles sur mesure pour accompagner les entreprises dans leur transformation digitale.  
+Grâce à une expertise en systèmes embarqués, RFID, IoT et logiciels métiers, E-thik intervient dans divers secteurs comme l'industrie, la logistique ou encore l’énergie, avec une approche orientée **efficacité terrain** et **innovation utile**.
+
   ---
   
-  ### 🎯 Mes missions
-  - Développement d’APIs REST sécurisées pour des applications métiers.
-  - Modélisation et gestion de bases de données relationnelles (MySQL).
-  - Automatisation de tests (Postman + scripts JS), documentation technique continue.
+### 🎯 Mes missions
+
+- Lire et comprendre la documentation du matériel et des logiciels embarqués (firmwares) afin d'assurer une communication fluide avec nos solutions.
+- Analyser le cahier des charges fonctionnel fourni par les chefs de projet ou les référents techniques.
+- Définir les deadlines de livraison en accord avec les priorités et les contraintes du projet.
+- Implémenter les solutions techniques conformément aux spécifications.
+- Tester le produit pour garantir sa stabilité, sa fiabilité et sa conformité aux attentes.
+- Intervenir techniquement en cas de dysfonctionnement pour identifier, corriger et documenter les bugs.
+
   
   ---
   
   ### 🛠 Technologies utilisées
-  Node.js · Express · MySQL · Docker · Postman
-  
+
+  **Langages** : C, C++, C#, Python  
+  **Bases de données & Messaging** : PostgreSQL, RabbitMQ  
+  **Back-end** : Django REST, Flask  
+  **Outils & DevOps** : Docker, Postman
+
   ---
   
   ### 💬 Ce que j’ai aimé
   - L’approche responsable du développement logiciel.
   - La liberté technique et les discussions autour des bonnes pratiques.
   - L’esprit collaboratif et bienveillant de l’équipe.
+  
   
   ---
   
@@ -51,24 +62,27 @@ export interface ExperienceMarkdown {
       id: 2,
       entreprise: 'Cash Flow Positif',
       poste: 'Développeur Full Stack',
-      periode: '2024 - 2025',
-      icon: '/assets/images/competences/javascript.png',
+      periode: '2022 - 2023',
+      icon: '/assets/images/experiences/cash-flow.png',
       markdown: `
-  ## 💼 Cash Flow Positif
-  
-  **Cash Flow Positif** est une fintech qui développe des outils de gestion financière pour freelances et micro-entrepreneurs, avec un fort accent sur l’expérience utilisateur.
-  
+### 💼 À propos de Cash Flow Positif
+
+**Cash Flow Positif** est une entreprise spécialisée dans l’**accompagnement stratégique des investisseurs** et la **création de structures rentables**.  
+Elle propose des services concrets pour optimiser le **montage de sociétés**, la **gestion de patrimoine** et le **développement d’activités génératrices de cash flow**, en s’appuyant sur une forte expertise juridique, fiscale et entrepreneuriale.  
+L’objectif : aider les entrepreneurs à structurer leur business pour atteindre une **rentabilité durable** et un **cash flow positif** dès les premiers mois.
+
   ---
   
   ### 🎯 Mes missions
-  - Création d’une interface responsive avec Angular (SPA).
-  - Développement de l’API back-end avec Django REST Framework.
-  - Mise en production sur un VPS via Docker + NGINX.
-  
-  ---
-  
-  ### 🛠 Technologies utilisées
-  Angular · Django · PostgreSQL · Docker · NGINX
+
+  - Conception et développement complet, de la base de données jusqu’au front-end.
+  - Implémentation de l’interface utilisateur avec Angular (SPA) et intégration via Twig côté serveur.
+  - Développement back-end en Symfony avec MySQL comme base de données principale.
+  - Mise en place de l’API REST, sécurisation des échanges et gestion des rôles utilisateurs.
+  - Écriture de tests à tous les niveaux : unitaires, fonctionnels et d’intégration.
+  - Utilisation d’outils de **code coverage** pour garantir la qualité du code.
+  - Déploiement en production sur VPS avec Docker et configuration NGINX.
+
   
   ---
   
@@ -88,7 +102,7 @@ export interface ExperienceMarkdown {
       entreprise: 'PARKOUR / Acadomia / Complétude',
       poste: 'Professeur',
       periode: '2020 - actuellement',
-      icon: '/assets/images/competences/javascript.png',
+      icon: '/assets/images/experiences/prof.png',
       markdown: `
   ## 🎓 PARKOUR / Acadomia / Complétude
   

@@ -182,3 +182,14 @@
 .modal-footer .btn-dark:hover {
   background-color: #555;
 }
+
+
+.competence-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
